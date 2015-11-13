@@ -9,7 +9,7 @@
 
 function db()
 {
-		$conn = new mysqli("localhost", "joomla_root", "root", "protal_"); 
+		$conn = new mysqli("localhost", "root", "", "baza"); 
 		return $conn;
 }
 function select($tablica,$id,$tekst,$naziv_polja)

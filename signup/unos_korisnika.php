@@ -30,9 +30,9 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-           <a class="blog-nav-item active" href="http://localhost/projekt08/portal-bootstrap">Home</a>
-          <a class="blog-nav-item" href="http://localhost/projekt08/portal-bootstrap/GigsOnRequest">Gigs On RiQuest</a>
-          <a class="blog-nav-item" href="http://localhost/projekt08/portal-bootstrap/admin">Administracija</a>
+         
+          <a class="blog-nav-item" href="/../TwitterClone1/TwitterClone">Twitter Clone</a>
+          <a class="blog-nav-item" href="/../TwitterClone1/TwitterClone/admin">Administracija</a>
         </nav>
       </div>
     </div>
@@ -40,8 +40,8 @@
     <div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title">RIPOFF</h1>
-        <p class="lead blog-description">Stranica za izvještavanje o glazbenim dogadjajima sa aplikacijom za dogovaranje evenata izmedju klubova i izvodjaca. Na naš news portal zalijepili smo Bootstrap framework!</p>
+        <h1 class="blog-title">Twitter Clone</h1>
+        <p class="lead blog-description" > Društvena mreža</p>
       </div>
 
       <div class="row">
@@ -84,7 +84,7 @@ if($_POST)
     echo '<td>'.$red['ime'].'</td>';
     echo '<td>'.$red['prezime'].'</td>';
     echo '<td>'.$red['username'].'</td>';
-	echo '<td>'.$red['vk_zemlje'].'</td>';
+	echo '<td>'.$red['password'].'</td>';
 	echo '<td>'.$red['vk_tip'].'</td>'; 
   	echo '</tr>';
 	}
@@ -102,7 +102,7 @@ $c = db();
 echo '
 <form id="form1" name="form1" method="post" action="">
   <fieldset>
-  <legend>Unos korisnika (Klubovi i Izvodjaci)</legend>
+  <legend>Unos korisnika</legend>
   <p>Ime: 
     <label>
     <input type="text" name="ime" id="ime" />
@@ -113,12 +113,12 @@ echo '
     <input type="text" name="prezime" id="prezime" />
     </label>
   </p>
-  <p>Username(Naziv izvodjaca ili kluba): 
+  <p>Username(: 
     <label>
     <input name="username" type="text" id="username" value="" />
     </label>
   </p>
-  <p>Password po zelji: 
+  <p>Password: 
     <label>
     <input name="password" type="text" id="password" value="" />
     </label>
@@ -127,11 +127,6 @@ echo '
     <label>
     <input name="oib" type="text" id="oib" maxlength="11" />
     </label>
-  </p>
-  <p>Zemlja:
-  <label>';
-  select('country', 'Code', 'Name', 'country');
- echo ' </label>
   </p>
   <label <p> Tip korisnika:';
   select('tip_korisnika', 'id', 'naziv', 'vk_tip'); 

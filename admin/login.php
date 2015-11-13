@@ -16,8 +16,6 @@ if($r && $r->num_rows==1)
 	switch($row['vk_tip'])
 	{
 		case 1:  header("Location: autori.php"); break;
-		case 2:	 header("Location: urednici.php"); break;
-		case 3:  header("Location: administratori.php"); break;
 		default: header("Location: index.php");
 	}
 	
