@@ -8,10 +8,7 @@ function logiran($tip)
 	}
 	else
 	{
-		if($_SESSION['tip']<$tip) // AKO KORISNIK POKUSA PRISTUPITI STRANICI IZNAD SVOJE RAZINE PRIVILEGIJA
-                                          // ADMINISTRATOR MOZE PRISTUPITI SVIM STRANICAMA - ADMIN, UREDNIK, AUTOR
-                                          // UREDNIK SVOJOJ I AUTORSKOJ
-                                          // AUTOR SAMO SVOJOJ
+		if($_SESSION['tip']<$tip) 
 		{
 			header("Location: logout.php"); // ODJAVI GA
 		}
@@ -21,7 +18,7 @@ function logiran($tip)
 function db()
 { 
 	$conn = new mysqli("localhost", "root", "", "baza"); 
-    //$conn = new mysqli("localhost", "root", "", "world");  
+    
 	return $conn;
 }
 
