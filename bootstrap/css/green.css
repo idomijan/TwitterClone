@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------------------------
+# ah-68 Kleines Schwarzes 3.x - Januar 2014 (J3.x)
+# Copyright (C) 2006-2013 www.ah-68.de All Rights Reserved.
+----------------------------------------------------------------------------------*/
+
+/* Green Style */
+
+.topstripe {
+	background-image: url(../images/topstripe-green.png)
+}
+div.moduletable h3, div.module h3, div.modulenew h3, div.modulehot h3, div.moduletablenew h3, div.moduletablehot h3 {
+	background: #9C3
+}
+ul.menuaccordion li a, ul.menuaccordion li .separator {
+	border-color: #9C3
+}
+ul.menuaccordion a:hover {
+	background-color: #9C3;
+	border-color: #9C3
+}
+ul.menuaccordion li.active > a {
+	background-color: #9C3;
+	border-color: #9C3
+}
+.menuaccordion a.ah-parent:hover {
+	background-color: #9C3;
+	border-color: #9C3
+}
+.menuaccordion a.ah-parent.active {
+	background-color: #9C3;
+	border-color: #9C3
+}
+ul.menu-menu li a, ul.menu-menu li .separator {
+	border-color: #9C3
+}
+ul.menu-menu li a:hover {
+	background-color: #9C3;
+	border-color: #9C3
+}
+ul.menu-menu li.active > a {
+	background-color: #9C3;
+	border-color: #9C3
+}
+ul.menu-menu ul li a:hover {
+	background: #9C3
+}
+ul.menu-menu ul li.active > a {
+	background: #9C3
+}
+.inputbox:hover, input:hover, textarea:hover {
+	color: #9C3
+}
+.btn, .button, .validate, button, input.button, button.button, button.validate, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a, .label-info, .badge-info, .label-info[href], .badge-info[href], .tagspopular li a, .tagssimilar li a {
+	color: #9C3
+}
+.btn:hover, .button:hover, .validate:hover, button:hover, input.button:hover, button.button:hover, button.validate:hover, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .label-info:hover[href], .badge-info:hover[href], .tagspopular li a:hover, .tagssimilar li a:hover {
+	background: #9C3
+}
+p.readmore a {
+	color: #9C3
+}
+p.readmore a:hover {
+	background: #9C3
+}
+.readmore a:hover, a:hover.readmore {
+	color: #9C3
+}
+.page-header h2, h2.item-title, h2.item-page, h2.blog, h2.items-more {
+	border-color: #9C3
+}
+.toclink.active {
+	color: #9C3
+}
+.highlight {
+	color: #9C3
+}
+.invalid {
+	border-color: #9C3
+}
+label.invalid {
+	color: #9C3
+}
+ul.menusf-menu li a:hover {
+	border-color: #9C3
+}
+ul.menusf-menu li.active > a {
+	border-color: #9C3
+}
+ul.menusf-menu ul li a:hover {
+	background: #9C3
+}
+ul.menusf-menu ul li.active > a {
+	background: #9C3
+}
+ul.menusf-vmenu li a, ul.menusf-vmenu li .separator {
+	border-color: #9C3;
+}
+ul.menusf-vmenu li a:hover {
+	background: #9C3;
+	border-color: #9C3
+}
+ul.menusf-vmenu li.active > a {
+	background: #9C3;
+	border-color: #9C3
+}
+ul.menusf-vmenu ul li a:hover {
+	background: #9C3
+}
+ul.menusf-vmenu ul li.active > a {
+	background: #9C3
+}
+/* Bootstrap */
+
+.dropdown-menu > li > a {
+	color: #9C3;
+	background-color: none;
+	-webkit-transition: background .8s ease, color .8s ease;
+	-moz-transition: background .8s ease, color .8s ease;
+	-o-transition: background .8s ease, color .8s ease;
+	-ms-transition: background .8s ease, color .8s ease;
+	transition: background .8s ease, color .8s ease;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	color: #0c0c0c !important;
+	background-color: #9C3
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	color: #0c0c0c !important;
+	background-color: #9C3
+}
+.caret {
+	border-top-color: #9C3
+}
+[class^="icon-"], [class*=" icon-"] {
+	background-image: url(../img/glyphicons-halflings-green.png);
+}
+.icon-white, .nav-pills > .active > a > [class^="icon-"], .nav-pills > .active > a > [class*=" icon-"], .nav-list > .active > a > [class^="icon-"], .nav-list > .active > a > [class*=" icon-"], .navbar-inverse .nav > .active > a > [class^="icon-"], .navbar-inverse .nav > .active > a > [class*=" icon-"], .dropdown-menu > li > a:hover > [class^="icon-"], .dropdown-menu > li > a:focus > [class^="icon-"], .dropdown-menu > li > a:hover > [class*=" icon-"], .dropdown-menu > li > a:focus > [class*=" icon-"], .dropdown-menu > .active > a > [class^="icon-"], .dropdown-menu > .active > a > [class*=" icon-"], .dropdown-submenu:hover > a > [class^="icon-"], .dropdown-submenu:focus > a > [class^="icon-"], .dropdown-submenu:hover > a > [class*=" icon-"], .dropdown-submenu:focus > a > [class*=" icon-"] {
+	background-image: url(../img/glyphicons-halflings-black.png);
+}
+.chzn-container .chzn-results .highlighted {
+	background-color: #9C3 !important;
+	background-image: none !important;
+	-webkit-transition: background .8s ease, color .8s ease;
+	-moz-transition: background .8s ease, color .8s ease;
+	-o-transition: background .8s ease, color .8s ease;
+	-ms-transition: background .8s ease, color .8s ease;
+	transition: background .8s ease, color .8s ease;
+}
