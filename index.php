@@ -33,7 +33,7 @@
       <div class="container">
         <nav class="blog-nav">
           <a class="blog-nav-item active" href="#">Home</a>
-          <a class="blog-nav-item" href="TwitterClone">Twitter Clone</a>
+          <a class="blog-nav-item" href="TwitterClone">Login</a>
           <a class="blog-nav-item" href="admin/">Administracija</a>
            <a class="blog-nav-item" href="signup/unos_korisnika.php">Registracija</a>
         </nav>
